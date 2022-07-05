@@ -1,0 +1,156 @@
+.container-about {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-grid {
+  display: flex;
+  margin-top: 150px;
+  height: 100% !important;
+  width: 80% !important;
+}
+
+h1,
+h3 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #efb810;
+}
+
+p {
+  color: #ffffff;
+}
+
+.container-card-about {
+  color: #ffffff;
+  display: block;
+  justify-content: center;
+  /* width: 80%;
+  height: 70%; */
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-avatar {
+  width: 430px;
+  height: 300px;
+}
+
+.container-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-description h2 {
+  margin: 0;
+  text-align: initial;
+  font-size: 30px;
+}
+
+.container-description h3 {
+  margin: 10px 0;
+  text-align: initial;
+  font-size: 20px;
+}
+
+.container-description p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.line {
+  width: 400px;
+  border: 1px solid #efb810;
+}
+
+.skills {
+  margin-top: 10px;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+}
+
+.skills-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.html {
+  width: 40px;
+}
+
+.css {
+  width: 40px;
+}
+
+.javascript {
+  width: 40px;
+}
+
+.react {
+  width: 50px;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.title-hobbies {
+  display: flex;
+  color: #efb810;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture-music {
+  width: 400px;
+  height: 300px;
+}
+
+.container-description-hobbies {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+}
+
+.description-hobbies {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 18px;
+}
+
+@media (max-width: 490px) {
+  .line {
+    width: 100px;
+  }
+
+  .picture-avatar {
+    width: 300px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,130 @@
+.container-index {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-title {
+  font-size: 5rem;
+  margin: 0px;
+  color: #efb810;
+}
+
+.text-subtitle {
+  display: flex;
+  margin: 0px 60px;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* SOCIAL CONTACT ++++++++++++++++++++++++++++++++++++++++++++  */
+.container-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 2.5rem;
+  z-index: 3;
+}
+
+.github {
+  font-size: 80px;
+  color: #efb810;
+}
+
+.github:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.twitter {
+  color: #efb810;
+}
+
+.twitter:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.linkedin {
+  color: #efb810;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.line-contact {
+  width: 2px;
+  height: 3rem;
+  background-color: #efb810;
+}
+/* END SOCIAL CONTACT +++++++++++++++++++++++++++++++++++++++++++++ */
+
+.container-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: calc(1rem + 2vw);
+  z-index: 3;
+}
+
+.scroll {
+  text-decoration: none;
+  transform: rotate(90deg) translate(-50%, -50%);
+  margin-right: 15px;
+  margin-bottom: 0px;
+  z-index: 1;
+  color: #efb810;
+}
+
+.line-scroll {
+  width: 2px;
+  height: 3rem;
+  background-color: #efb810;
+}
+
+@media (max-width: 830px) {
+  .text-title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .text-title {
+    font-size: 3rem;
+  }
+
+  .text-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 490px) {
+  .text-title {
+    font-size: 2rem;
+  }
+  .text-subtitle {
+    font-size: 12px;
+    margin: 0px 40px;
+  }
+}
