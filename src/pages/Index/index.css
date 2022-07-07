@@ -1,6 +1,6 @@
 .container-index {
   display: flex;
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -15,10 +15,18 @@
   justify-content: center;
 }
 
+.i-am {
+  text-align: start;
+  margin: 0 0 0 50px;
+}
+
 .text-title {
   font-size: 5rem;
   margin: 0px;
-  color: #efb810;
+  /* color: #efb810; */
+  background: url("../../assets/images/gold.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-subtitle {
@@ -107,6 +115,10 @@
   .text-title {
     font-size: 4rem;
   }
+
+  .i-am {
+    margin: 0 0 0 40px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -115,6 +127,11 @@
   }
 
   .text-subtitle {
+    font-size: 15px;
+  }
+
+  .i-am {
+    margin: 0 0 0 30px;
     font-size: 15px;
   }
 }
@@ -126,5 +143,10 @@
   .text-subtitle {
     font-size: 12px;
     margin: 0px 40px;
+  }
+
+  .i-am {
+    margin: 0 0 0 20px;
+    font-size: 12px;
   }
 }

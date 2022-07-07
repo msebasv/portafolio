@@ -1,0 +1,46 @@
+.container-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 2.5rem;
+  z-index: 3;
+}
+
+.github {
+  font-size: 80px;
+  color: #efb810;
+}
+
+.github:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.twitter {
+  color: #efb810;
+}
+
+.twitter:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.linkedin {
+  color: #efb810;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+.line-contact {
+  width: 2px;
+  height: 3rem;
+  background-color: #efb810;
+}

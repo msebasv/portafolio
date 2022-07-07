@@ -9,11 +9,19 @@ import javascript from "../../assets/images/javascript.png";
 import react from "../../assets/images/react.png";
 import music from "../../assets/images/music.png";
 
+import { motion } from "framer-motion";
+
 import "./index.css";
 
 const About = () => {
   return (
-    <div className="container-about">
+    <motion.div
+      initial={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="container-about"
+    >
       <Grid container className="container-grid">
         <Grid xs={12} md={12} item>
           <h1>{"<About />"}</h1>
@@ -68,7 +76,7 @@ const About = () => {
           </div>
         </Grid>
       </Grid>
-    </div>
+    </motion.div>
   );
 };
 

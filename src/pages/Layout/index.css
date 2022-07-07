@@ -1,13 +1,24 @@
 .layout {
   text-align: center;
+  background-image: url("../../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
 }
+
+/* .header {
+  height: 64px;
+} */
 
 .main {
   display: flex;
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
-  overflow-y: auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;

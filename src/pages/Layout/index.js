@@ -4,16 +4,19 @@ import Navbar from "../../components/Navbar";
 
 import { Outlet } from "react-router-dom";
 
+import SocialMedia from "../../components/SocialMedia";
+
 import "./index.css";
 
 const Layout = () => {
   return (
     <div className="layout">
-      <header>
+      <header className="header">
         <Navbar />
       </header>
-      <main className="main">
+      <main>
         <Outlet />
+        <SocialMedia />
       </main>
     </div>
   );
