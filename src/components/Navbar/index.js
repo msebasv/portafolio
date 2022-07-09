@@ -35,7 +35,7 @@ const Navbar = () => {
           <Box className={mobileOpen ? "menu nav-menu_visible" : "menu"}>
             <Link to="/" className="link">
               <MenuItem className="menu-item">
-                <Typography>Inicio</Typography>
+                <Typography>Inicio </Typography>
               </MenuItem>
             </Link>
             <Link to="/about" className="link">
